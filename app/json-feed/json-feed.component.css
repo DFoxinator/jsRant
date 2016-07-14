@@ -1,0 +1,61 @@
+
+.object-contents, .array-contents {
+  padding-left: 16px;
+}
+
+.object-end, .array-end {
+  display: block;
+}
+
+.string-line.first {
+  display: inline;
+}
+
+.string-line:not(.first) {
+  padding-left: 44px;
+}
+
+.string-line.empty {
+  visibility: hidden;
+}
+
+.string {
+  color: forestgreen;
+}
+
+.string-line .string {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.number {
+  color: blue;
+}
+
+.boolean {
+  color: firebrick;
+}
+
+.field, .keyword {
+  font-weight: bold;
+}
+
+.comment {
+  display: block;
+  color: grey;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.keyword {
+  color: rgb(147, 15, 128);
+}
+
+.tooltip-wrapper .tooltip {
+  visibility: hidden;
+  position: absolute;
+}
+
+.tooltip-wrapper:hover .tooltip {
+  visibility: visible;
+}
